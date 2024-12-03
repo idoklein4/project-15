@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "312310347969",
+    "project_id": "jumptoknowledge1",
+    "storage_bucket": "jumptoknowledge1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312310347969:android:b47965276fff4f677fbc40",
+        "android_client_info": {
+          "package_name": "com.example.ido"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgWISqGAkj9wKLqhzGqYhLY7QFitj2iuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312310347969:android:43b9fc88311c2f2b7fbc40",
+        "android_client_info": {
+          "package_name": "com.example.jumptoknowledge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgWISqGAkj9wKLqhzGqYhLY7QFitj2iuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

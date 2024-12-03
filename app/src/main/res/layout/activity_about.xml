@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/and"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#FAF7F7"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        tools:layout_editor_absoluteX="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="337dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="464dp"
+        android:text="חידון בין חברים הוא פעילות מהנה ותחרותית שמטרתה לבחון ידע כללי או נושאים ספציפיים, כמו תרבות פופולרית, היסטוריה, מוזיקה, או תחומי עניין משותפים. החידון מורכב משאלות במגוון פורמטים, כגון שאלות אמריקאיות, שאלות פתוחות, או חידות, והוא יכול להתנהל באופן אישי או מקוון. החידון יוצר אווירה קלילה ומשעשעת, עם הזדמנות להכיר טוב יותר את החברים ולהעמיק את הקשרים ביניהם תוך כדי הנאה מהמשחק."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
